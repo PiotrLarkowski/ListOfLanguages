@@ -17,4 +17,10 @@ public class LanguageList {
     public void removeLanguage(String language) {
         languages.remove(language);
     }
+    public String firstLanguage() {
+        if(languages.isEmpty()){
+            return "List is empty";
+        }
+        return languages.get(0);
+    }
 }

@@ -11,5 +11,9 @@ public class Main {
         System.out.println("Language size before added new language: " + languageList.sizeOfList());
         languageList.removeLanguage("English");
         System.out.println("Language size after added new language: " + languageList.sizeOfList());
+        System.out.println("What is the first language on my list? " + languageList.firstLanguage());
+        System.out.println("Add English to my list");
+        languageList.addLanguage("English");
+        System.out.println("What is the first language on my list? " + languageList.firstLanguage());
     }
 }
