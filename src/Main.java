@@ -7,6 +7,9 @@ public class Main {
         System.out.println("Language size before added new language: " + languageList.sizeOfList());
         languageList.addLanguage("English");
         System.out.println("Language size after added new language: " + languageList.sizeOfList());
-
+        System.out.println("I decide to remove English from my list");
+        System.out.println("Language size before added new language: " + languageList.sizeOfList());
+        languageList.removeLanguage("English");
+        System.out.println("Language size after added new language: " + languageList.sizeOfList());
     }
 }
