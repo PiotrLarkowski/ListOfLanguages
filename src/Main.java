@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Add English to my list");
         languageList.addLanguage("English");
         System.out.println("What is the first language on my list? " + languageList.firstLanguage());
+        System.out.println("I don't remember if my list includes French? " + languageList.containsLanguage("French"));
     }
 }

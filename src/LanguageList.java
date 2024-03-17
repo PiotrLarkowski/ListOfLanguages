@@ -23,4 +23,7 @@ public class LanguageList {
         }
         return languages.get(0);
     }
+    public boolean containsLanguage(String language) {
+        return languages.contains(language);
+    }
 }
