@@ -26,4 +26,12 @@ public class LanguageList {
     public boolean containsLanguage(String language) {
         return languages.contains(language);
     }
+    public boolean isExciting() {
+        for(String name: languages){
+            if(name.equals("Java")||name.equals("Kotlin")){
+                return true;
+            }
+        }
+        return false;
+    }
 }
